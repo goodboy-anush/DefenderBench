@@ -10,7 +10,8 @@ from termcolor import colored
 from src.defenderbench.version import __version__
 
 
-root_dir = os.path.dirname(os.path.abspath(__file__))
+# root_dir = os.path.dirname(os.path.abspath(__file__))
+root_dir = os.path.dirname(os.path.abspath("/content/DefenderBench/src/defenderbench/__init__.py"))
 tasks = []
 env_list = []
 
@@ -59,16 +60,6 @@ benchmark_v0 = [
     'PhishingWebFewShot',
     'CyberThreatIntelligenceMultiChoiceQuestions',
     'CyberThreatIntelligenceMultiChoiceQuestionsWithContext',
-    'CodeVulnerabilityDetection',
-    'CodeVulnerabilityDetectionFewShot',
-    'CodeVulnerabilityDevignDetection',
-    'CodeVulnerabilityDevignDetectionFewShot',
-    'CVEFix',
-    'CyberBattleChain2',
-    'CyberBattleChain4',
-    'CyberBattleChain10',
-    'CyberBattleTiny',
-    'CyberBattleToyCTF',
 ]
 
 benchmark_small_v0 = [
@@ -78,14 +69,4 @@ benchmark_small_v0 = [
     'PhishingWebFewShotSmall',
     'CyberThreatIntelligenceMultiChoiceQuestionsSmall',
     'CyberThreatIntelligenceMultiChoiceQuestionsWithContextSmall',
-    'CodeVulnerabilityDetectionSmall',
-    'CodeVulnerabilityDetectionFewShotSmall',
-    'CodeVulnerabilityDevignDetectionSmall',
-    'CodeVulnerabilityDevignDetectionFewShotSmall',
-    'CVEFixSmall',
-    'CyberBattleChain2',
-    'CyberBattleChain4',
-    'CyberBattleChain10',
-    'CyberBattleTiny',
-    'CyberBattleToyCTF',
 ]
