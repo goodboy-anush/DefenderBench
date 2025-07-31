@@ -2,7 +2,7 @@ tqdm
 numpy
 pandas
 termcolor
-gymnasium==0.29.1
+gymnasium
 pyyaml
 tenacity
 
